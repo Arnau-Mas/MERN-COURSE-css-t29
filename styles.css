@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(222,223,221);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    background-color: white;
+    margin: 0.8rem;
+    width: 70%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+
+header img{
+    width: 95%;
+}
+
+header h1{
+    text-align: center;
+    color: #BF823B;
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+    margin-top: 0.5rem;
+}
+
+header h1 span{
+    color: #5F8F11;
+}
+
+
+.mainContent{
+    padding: 1rem 1rem 0rem 1rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mainContent nav{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.mainContent nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: rgb(59, 59, 59);
+
+}
+
+.mainContent li{
+    list-style: none;
+   /*  height: 2rem;
+    background-color: greenyellow; */
+    border: 1px solid rgba(128, 128, 128, 0.447);
+}
+
+.mainContent li a{
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1.2rem;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 35%, #B4D54E 100%);
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-size: 0.85em;
+}
+
+.mainContent li a:hover{
+    outline: none;
+}
+
+.mainContent article{
+    border: 1px rgba(128, 128, 128, 0.447) solid;
+    width: 85%;
+    padding: 2rem 1rem 2rem 1rem;
+    box-shadow: inset 0 0 15px 10px rgba(128, 128, 128, 0.128);
+    /* background-color: beige; */
+}
+
+.mainContent article h3{
+    color: #5f8f11e8;
+    font-size: 1.4rem;
+}
+
+.mainContent article h5{
+    color:  #BF823B;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.mainContent article p{
+    font-size: 0.9rem;
+}
+
+.mainContent article p:nth-child(3){
+    margin-top: 1rem;
+}
+
+footer{
+    font-size: 0.8em;
+    color: rgb(210, 210, 210);
+    font-style: italic;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    text-align: center;
+}
+
+footer span {
+    font-style: italic;
+    text-decoration: underline;
+}
